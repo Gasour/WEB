@@ -1,0 +1,122 @@
+<html>
+  <head>
+  <title></title>
+  
+  <style type="text/css">
+  #telo {
+	 background: red; 
+	 width: 960px;
+	 margin-left:auto;
+	 margin-right:auto;
+   color: white;
+   padding: 25px;
+   text-align:center;
+   
+}
+  #main-menu {
+	 background: black;
+   font-size: 30px;
+	 width: 960px;
+	 margin-left:auto;
+	 margin-right:auto; 
+   
+}
+  h2 {
+    border-style: solid;
+    border-color: blue;
+    text-align:center;
+}
+
+  h3 {
+    border-style: solid;
+    border-color: green;
+    text-align:center;
+    
+}
+  #navigation-menu {
+	float: left;
+	text-align: center;
+  padding: 25px;
+  width: 200px;
+  border: 5px solid gray;
+}
+  
+  #navigation-menu li a:link {
+    background-color: #B2FF99;
+}
+  #navigation-menu li a:hover {
+    color: red;
+}
+
+
+  #main-menu li a:hover {
+    color: White;
+}
+#main-menu li {
+    display: inline;
+}
+
+
+     
+  </style>
+  
+  </head>
+  <body>
+    <main>
+    
+    <h2>Hlavní menu</h2>
+    <nav id="main-menu">
+    
+    <ul>
+      <li class="first">
+        <a href="#">Položka 1</a>
+      </li>
+      <li>
+        <a href="#">Položka 2</a>
+      </li>
+      <li>
+        <a href="#">Položka 3</a>
+      </li>
+      <li class="last">
+        <a href="#">Položka 4</a>
+      </li>
+    </ul>
+   </nav>
+   <h3>Navigace</h3>
+   <nav id="navigation-menu">
+    
+    <ul>
+      <li class="first">
+        <a href="#">Položka 1</a>
+      </li>
+      <li>
+        <a href="#">Položka 2</a>
+      </li>
+      <li>
+        <a href="#">Položka 3</a>
+      </li>
+      <li class="last">
+        <a href="#">Položka 4</a>
+      </li>
+    </ul>
+   </nav>
+  
+    <article id=telo>
+      <p class="first">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt tellus posuere, sollicitudin mauris in, tincidunt erat. Aliquam imperdiet luctus turpis, nec malesuada urna tincidunt vitae. Curabitur malesuada vel orci non suscipit. Sed euismod diam a sem efficitur iaculis. Nullam turpis eros, sollicitudin vel lacus vitae, mattis hendrerit mauris. Curabitur pulvinar, neque a auctor interdum, libero nunc luctus erat, fringilla volutpat orci erat nec ante. Vestibulum lacinia lacus quis sem consectetur, interdum accumsan est lobortis. Proin iaculis a lectus ac rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In pulvinar, nisi vel porta tincidunt, sapien neque feugiat libero, quis lacinia tellus nibh in dui. Nulla vestibulum interdum nulla, in finibus urna lobortis nec. Quisque id sem at urna commodo scelerisque non sagittis augue. Curabitur aliquet, mi eu aliquet dapibus, metus eros maximus nulla, ac vulputate nibh ex vitae purus. Donec dictum ligula dolor, non blandit ante placerat at.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt tellus posuere, sollicitudin mauris in, tincidunt erat. Aliquam imperdiet luctus turpis, nec malesuada urna tincidunt vitae. Curabitur malesuada vel orci non suscipit. Sed euismod diam a sem efficitur iaculis. Nullam turpis eros, sollicitudin vel lacus vitae, mattis hendrerit mauris. Curabitur pulvinar, neque a auctor interdum, libero nunc luctus erat, fringilla volutpat orci erat nec ante. Vestibulum lacinia lacus quis sem consectetur, interdum accumsan est lobortis. Proin iaculis a lectus ac rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In pulvinar, nisi vel porta tincidunt, sapien neque feugiat libero, quis lacinia tellus nibh in dui. Nulla vestibulum interdum nulla, in finibus urna lobortis nec. Quisque id sem at urna commodo scelerisque non sagittis augue. Curabitur aliquet, mi eu aliquet dapibus, metus eros maximus nulla, ac vulputate nibh ex vitae purus. Donec dictum ligula dolor, non blandit ante placerat at.</p>
+      <p class="last">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt tellus posuere, sollicitudin mauris in, tincidunt erat. Aliquam imperdiet luctus turpis, nec malesuada urna tincidunt vitae. Curabitur malesuada vel orci non suscipit. Sed euismod diam a sem efficitur iaculis. Nullam turpis eros, sollicitudin vel lacus vitae, mattis hendrerit mauris. Curabitur pulvinar, neque a auctor interdum, libero nunc luctus erat, fringilla volutpat orci erat nec ante. Vestibulum lacinia lacus quis sem consectetur, interdum accumsan est lobortis. Proin iaculis a lectus ac rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In pulvinar, nisi vel porta tincidunt, sapien neque feugiat libero, quis lacinia tellus nibh in dui. Nulla vestibulum interdum nulla, in finibus urna lobortis nec. Quisque id sem at urna commodo scelerisque non sagittis augue. Curabitur aliquet, mi eu aliquet dapibus, metus eros maximus nulla, ac vulputate nibh ex vitae purus. Donec dictum ligula dolor, non blandit ante placerat at.</p>
+    </article>
+    <article>
+      <p class="first">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt tellus posuere, sollicitudin mauris in, tincidunt erat. Aliquam imperdiet luctus turpis, nec malesuada urna tincidunt vitae. Curabitur malesuada vel orci non suscipit. Sed euismod diam a sem efficitur iaculis. Nullam turpis eros, sollicitudin vel lacus vitae, mattis hendrerit mauris. Curabitur pulvinar, neque a auctor interdum, libero nunc luctus erat, fringilla volutpat orci erat nec ante. Vestibulum lacinia lacus quis sem consectetur, interdum accumsan est lobortis. Proin iaculis a lectus ac rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In pulvinar, nisi vel porta tincidunt, sapien neque feugiat libero, quis lacinia tellus nibh in dui. Nulla vestibulum interdum nulla, in finibus urna lobortis nec. Quisque id sem at urna commodo scelerisque non sagittis augue. Curabitur aliquet, mi eu aliquet dapibus, metus eros maximus nulla, ac vulputate nibh ex vitae purus. Donec dictum ligula dolor, non blandit ante placerat at.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt tellus posuere, sollicitudin mauris in, tincidunt erat. Aliquam imperdiet luctus turpis, nec malesuada urna tincidunt vitae. Curabitur malesuada vel orci non suscipit. Sed euismod diam a sem efficitur iaculis. Nullam turpis eros, sollicitudin vel lacus vitae, mattis hendrerit mauris. Curabitur pulvinar, neque a auctor interdum, libero nunc luctus erat, fringilla volutpat orci erat nec ante. Vestibulum lacinia lacus quis sem consectetur, interdum accumsan est lobortis. Proin iaculis a lectus ac rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In pulvinar, nisi vel porta tincidunt, sapien neque feugiat libero, quis lacinia tellus nibh in dui. Nulla vestibulum interdum nulla, in finibus urna lobortis nec. Quisque id sem at urna commodo scelerisque non sagittis augue. Curabitur aliquet, mi eu aliquet dapibus, metus eros maximus nulla, ac vulputate nibh ex vitae purus. Donec dictum ligula dolor, non blandit ante placerat at.</p>
+      <p class="last">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt tellus posuere, sollicitudin mauris in, tincidunt erat. Aliquam imperdiet luctus turpis, nec malesuada urna tincidunt vitae. Curabitur malesuada vel orci non suscipit. Sed euismod diam a sem efficitur iaculis. Nullam turpis eros, sollicitudin vel lacus vitae, mattis hendrerit mauris. Curabitur pulvinar, neque a auctor interdum, libero nunc luctus erat, fringilla volutpat orci erat nec ante. Vestibulum lacinia lacus quis sem consectetur, interdum accumsan est lobortis. Proin iaculis a lectus ac rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In pulvinar, nisi vel porta tincidunt, sapien neque feugiat libero, quis lacinia tellus nibh in dui. Nulla vestibulum interdum nulla, in finibus urna lobortis nec. Quisque id sem at urna commodo scelerisque non sagittis augue. Curabitur aliquet, mi eu aliquet dapibus, metus eros maximus nulla, ac vulputate nibh ex vitae purus. Donec dictum ligula dolor, non blandit ante placerat at.</p>
+    </article>
+    <article>
+      <p class="first">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt tellus posuere, sollicitudin mauris in, tincidunt erat. Aliquam imperdiet luctus turpis, nec malesuada urna tincidunt vitae. Curabitur malesuada vel orci non suscipit. Sed euismod diam a sem efficitur iaculis. Nullam turpis eros, sollicitudin vel lacus vitae, mattis hendrerit mauris. Curabitur pulvinar, neque a auctor interdum, libero nunc luctus erat, fringilla volutpat orci erat nec ante. Vestibulum lacinia lacus quis sem consectetur, interdum accumsan est lobortis. Proin iaculis a lectus ac rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In pulvinar, nisi vel porta tincidunt, sapien neque feugiat libero, quis lacinia tellus nibh in dui. Nulla vestibulum interdum nulla, in finibus urna lobortis nec. Quisque id sem at urna commodo scelerisque non sagittis augue. Curabitur aliquet, mi eu aliquet dapibus, metus eros maximus nulla, ac vulputate nibh ex vitae purus. Donec dictum ligula dolor, non blandit ante placerat at.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt tellus posuere, sollicitudin mauris in, tincidunt erat. Aliquam imperdiet luctus turpis, nec malesuada urna tincidunt vitae. Curabitur malesuada vel orci non suscipit. Sed euismod diam a sem efficitur iaculis. Nullam turpis eros, sollicitudin vel lacus vitae, mattis hendrerit mauris. Curabitur pulvinar, neque a auctor interdum, libero nunc luctus erat, fringilla volutpat orci erat nec ante. Vestibulum lacinia lacus quis sem consectetur, interdum accumsan est lobortis. Proin iaculis a lectus ac rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In pulvinar, nisi vel porta tincidunt, sapien neque feugiat libero, quis lacinia tellus nibh in dui. Nulla vestibulum interdum nulla, in finibus urna lobortis nec. Quisque id sem at urna commodo scelerisque non sagittis augue. Curabitur aliquet, mi eu aliquet dapibus, metus eros maximus nulla, ac vulputate nibh ex vitae purus. Donec dictum ligula dolor, non blandit ante placerat at.</p>
+      <p class="last">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt tellus posuere, sollicitudin mauris in, tincidunt erat. Aliquam imperdiet luctus turpis, nec malesuada urna tincidunt vitae. Curabitur malesuada vel orci non suscipit. Sed euismod diam a sem efficitur iaculis. Nullam turpis eros, sollicitudin vel lacus vitae, mattis hendrerit mauris. Curabitur pulvinar, neque a auctor interdum, libero nunc luctus erat, fringilla volutpat orci erat nec ante. Vestibulum lacinia lacus quis sem consectetur, interdum accumsan est lobortis. Proin iaculis a lectus ac rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In pulvinar, nisi vel porta tincidunt, sapien neque feugiat libero, quis lacinia tellus nibh in dui. Nulla vestibulum interdum nulla, in finibus urna lobortis nec. Quisque id sem at urna commodo scelerisque non sagittis augue. Curabitur aliquet, mi eu aliquet dapibus, metus eros maximus nulla, ac vulputate nibh ex vitae purus. Donec dictum ligula dolor, non blandit ante placerat at.</p>
+    </article>
+  </main>  
+    
+  </body>
+</html>
